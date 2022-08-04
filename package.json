@@ -1,0 +1,27 @@
+{
+  "name": "vite-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.14",
+    "svelte": "^3.49.0",
+    "tailwindcss": "^3.1.7",
+    "vite": "^3.0.0",
+    "vite-plugin-vconsole": "^1.2.2"
+  },
+  "dependencies": {
+    "@types/qs": "^6.9.7",
+    "axios": "^0.27.2",
+    "qs": "^6.11.0",
+    "svelte-spa-router": "^3.2.0",
+    "vconsole": "^3.14.6"
+  }
+}
